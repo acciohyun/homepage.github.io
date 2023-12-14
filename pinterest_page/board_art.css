@@ -1,0 +1,18 @@
+span[class^='PIN'][class$='img'], span[class^='PIN'][class$='col']{
+    width:100% !important;
+  }
+  span[class^='PIN'][class$='hd'] {
+      display: none !important;
+  }
+  
+  span[class^='PIN'][class$='ft'] {
+      display: none !important;
+  }
+  
+  #embed-nav{
+    display: none !important;
+  }
+  
+  #embed-footer{
+    display: none !important;
+  }
