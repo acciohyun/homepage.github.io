@@ -1,3 +1,6 @@
-var items = document.querySelectorAll("[class$='col']")
-var index = Math.floor(Math.random() * items.length)
-items[index].scrollIntoView()
+
+function runOnLoad(){
+    var items = document.querySelectorAll("[class$='col']");
+    var index = Math.floor(Math.random() * items.length);
+    items[index].scrollIntoView();
+}
