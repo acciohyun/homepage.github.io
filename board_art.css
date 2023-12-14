@@ -11,7 +11,7 @@ span[class^='PIN'][class$='img'], span[class^='PIN'][class$='col']{
 
   span[class^='PIN'][class$='bd'] {
     display: none !important;
-    height: 1000px !important;
+    /* height: 1000px !important; */
 }
   
   #embed-nav{
