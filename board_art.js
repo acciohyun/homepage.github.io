@@ -1,4 +1,12 @@
 
-    var items = await document.querySelectorAll("[class$='col']");
-    var index = Math.floor(Math.random() * items.length);
-    items[index].scrollIntoView();
+    
+    function getElements(){
+        return Promise.resolve(document.querySelectorAll("[class$='col']"));
+    };
+    
+    Promise.all(document.querySelectorAll("[class$='col']")).then((items) => {
+        var index = Math.floor(Math.random() * items.length);
+        items[index].scrollIntoView();  
+    })
+
+    
